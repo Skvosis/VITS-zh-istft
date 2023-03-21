@@ -1,7 +1,7 @@
 Cython==0.29.21
 librosa==0.8.0
 matplotlib
-numpy==1.19.5
+numpy==1.21.5
 phonemizer==2.2.1
 scipy
 tensorboard
