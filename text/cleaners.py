@@ -68,7 +68,7 @@ def latin_to_bopomofo(text):
 
 
 def chinese_cleaners(text):
+    text = number_to_chinese(text)
     text = chinese_to_bopomofo(text)
     text = latin_to_bopomofo(text)
-    text = number_to_chinese(text)
     return text
